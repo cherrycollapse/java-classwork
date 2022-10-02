@@ -1,7 +1,11 @@
 package step.learning;
 
+import step.learning.anno.DemoClass;
+import step.learning.anno.EntryPoint;
+
 import java.util.*;
 
+@DemoClass
 public class Complex {
     private Random random;
     public Complex() {
@@ -197,6 +201,7 @@ public class Complex {
 
     }
 
+    @EntryPoint
     public void run() {
         dictionaryDemo() ;
 //        arraysDemo();

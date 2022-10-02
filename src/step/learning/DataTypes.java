@@ -1,7 +1,12 @@
 package step.learning;
 
+import step.learning.anno.DemoClass;
+import step.learning.anno.EntryPoint;
+
+@DemoClass(priority = 1)
 public class DataTypes {
 
+    @EntryPoint
     public void run() {
         System.out.println(
                 ConsoleColors.GREEN +

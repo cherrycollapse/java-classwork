@@ -1,12 +1,15 @@
 package step.learning.oop;
 
 import step.learning.ConsoleColors;
+import step.learning.anno.DemoClass;
+import step.learning.anno.EntryPoint;
 
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@DemoClass
 public class Library {
     List<Literature> funds ;
 
@@ -83,6 +86,7 @@ public class Library {
        showNonPeriodic();
     }
 
+    @EntryPoint
     public void run() {
         add(new Book()
                 .setAuthor("Knuth")
