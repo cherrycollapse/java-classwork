@@ -2,9 +2,11 @@ package step.learning.oop;
 
 import step.learning.ConsoleColors;
 
+import java.io.Serializable;
+
 public class Book
         extends Literature
-        implements Printable {
+        implements Printable, Serializable {
     String author;
 
     public String getAuthor() {

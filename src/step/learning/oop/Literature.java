@@ -1,6 +1,8 @@
 package step.learning.oop;
 
-public abstract class Literature {
+import java.io.Serializable;
+
+public abstract class Literature implements Serializable {
     String title;
 
     /**

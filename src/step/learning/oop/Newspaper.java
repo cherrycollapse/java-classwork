@@ -2,6 +2,7 @@ package step.learning.oop;
 
 import step.learning.ConsoleColors;
 
+import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -9,7 +10,7 @@ import java.util.Date;
 
 public class Newspaper
         extends Literature
-        implements Printable, Periodic {
+        implements Printable, Periodic, Serializable {
     Date date ;
     Calendar calendar ;
 

@@ -2,9 +2,11 @@ package step.learning.oop;
 
 import step.learning.ConsoleColors;
 
+import java.io.Serializable;
+
 public class Journal
         extends Literature
-        implements Printable, Periodic {
+        implements Printable, Periodic, Serializable {
     Integer number ;
 
     // Аксессоры :
