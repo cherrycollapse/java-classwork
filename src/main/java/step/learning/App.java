@@ -77,6 +77,8 @@ public class App {
         System.out.println("MsConnectionString: " + msConnectionString);
         System.out.println("OracleConnectionString: " + oracleConnectionString);
 
+        runMenu();
+
     }
 
     public void runMenu() {
